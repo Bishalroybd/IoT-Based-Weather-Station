@@ -1,0 +1,366 @@
+Complete Detailed Parts List
+1. Microcontrollers & Development Boards
+1.1 Arduino Uno R3
+Model: Arduino Uno R3
+
+Microcontroller: ATmega328P
+
+Operating Voltage: 5V
+
+Input Voltage: 7-12V
+
+Digital I/O Pins: 14 (6 PWM outputs)
+
+Analog Input Pins: 6
+
+Flash Memory: 32 KB
+
+SRAM: 2 KB
+
+EEPROM: 1 KB
+
+Clock Speed: 16 MHz
+
+Purpose: Primary controller for outdoor sensing unit
+
+1.2 ESP32 Development Board
+Model: ESP32-WROOM-32
+
+Core: Xtensa® dual-core 32-bit LX6 microprocessor
+
+Operating Voltage: 3.3V
+
+Input Voltage: 5V via micro-USB
+
+Wi-Fi: 802.11 b/g/n
+
+Bluetooth: Bluetooth 4.2
+
+SRAM: 520 KB
+
+Flash Memory: 4 MB
+
+GPIO Pins: 36
+
+ADC Pins: 18 (12-bit)
+
+Clock Speed: Up to 240 MHz
+
+Purpose: Indoor ground unit with Wi-Fi connectivity
+
+2. Environmental Sensors
+2.1 BMP280 Digital Pressure Sensor
+Type: Digital barometric pressure sensor
+
+Interface: I2C (also supports SPI)
+
+Operating Voltage: 1.8V - 3.6V
+
+Pressure Range: 300-1100 hPa
+
+Relative Accuracy: ±1.0 hPa
+
+Absolute Accuracy: ±1.0 hPa
+
+Temperature Range: -40°C to +85°C
+
+Temperature Accuracy: ±1.0°C
+
+Current Consumption: 2.7 μA @1Hz
+
+Package: LGA package with metal lid
+
+Purpose: Atmospheric pressure measurement
+
+2.2 DHT22 Temperature & Humidity Sensor
+Alternative Name: AM2302
+
+Type: Digital temperature and humidity sensor
+
+Interface: Single-wire serial
+
+Operating Voltage: 3.3V - 6V
+
+Temperature Range: -40°C to 80°C
+
+Temperature Accuracy: ±0.5°C
+
+Humidity Range: 0-100% RH
+
+Humidity Accuracy: ±2% RH (25°C)
+
+Resolution: 16-bit
+
+Sampling Rate: 0.5 Hz (2 seconds)
+
+Dimensions: 27mm x 59mm x 13.5mm
+
+Purpose: Temperature and humidity measurement
+
+2.3 GYML8511 UV Light Sensor
+Type: Analog UV light sensor
+
+Spectral Response: 280-390nm
+
+Output Type: Analog voltage
+
+Output Range: 0-1V
+
+Operating Voltage: 3.3V - 5V
+
+UV Intensity Range: 0-15 mW/cm²
+
+Viewing Angle: 60 degrees
+
+Response Time: 0.5 seconds
+
+Purpose: UV index measurement
+
+3. Custom-Built Weather Instruments
+3.1 Anemometer (Wind Speed Sensor)
+Electronic Components:
+
+Hall Effect Sensor: A3144 (x1)
+
+Type: Unipolar Hall Effect switch
+
+Operating Voltage: 4.5V to 24V
+
+Output Current: 25mA
+
+Operating Temperature: -40°C to 85°C
+
+Magnets: Neodymium magnets (x3), 5mm diameter
+
+Bearings: 608ZZ ball bearings (x1)
+
+Mechanical Components:
+
+Cups: 3D printed or plastic cups (x3), 75mm diameter
+
+Arm Assembly: PVC or aluminum arms
+
+Mounting Shaft: Stainless steel shaft, 3mm diameter
+
+Enclosure: Weatherproof ABS enclosure
+
+3.2 Wind Vane (Direction Sensor)
+Electronic Components:
+
+Hall Effect Sensors: A3144 (x8)
+
+Magnet: Ring magnet with multiple poles
+
+Voltage Divider Resistors: 10kΩ resistors (x8)
+
+Mechanical Components:
+
+Vane Body: 3D printed or lightweight plastic
+
+Shaft: Stainless steel, 4mm diameter
+
+Bearings: 685ZZ miniature ball bearings
+
+Direction Markers: N, NE, E, SE, S, SW, W, NW
+
+3.3 Tipping Bucket Rain Gauge
+Electronic Components:
+
+Reed Switch: Normally open magnetic reed switch
+
+Magnet: Small neodymium magnet
+
+Water Collection Funnel: 150mm diameter
+
+Mechanical Components:
+
+Bucket Mechanism: Balanced tipping buckets (x2)
+
+Bucket Capacity: 0.2mm rain per tip
+
+Body: UV-resistant ABS plastic
+
+Mounting Bracket: Adjustable leveling bracket
+
+4. Supporting Components
+4.1 RTC DS1302 Real-Time Clock
+Chip: DS1302
+
+Interface: 3-wire serial
+
+Operating Voltage: 2.0V to 5.5V
+
+Clock Accuracy: ±2ppm from 0°C to 40°C
+
+Backup Battery: CR2032 3V lithium cell
+
+Battery Life: More than 10 years
+
+Purpose: Timekeeping during power outages
+
+4.2 A3144 Hall Effect Sensors (Additional)
+Quantity: 10 pieces (2 spare)
+
+Type: Unipolar Hall Effect switch
+
+Operating Voltage: 4.5V to 24V
+
+Output Type: Digital (open collector)
+
+Operating Point: Typical 30 Gauss
+
+Release Point: Typical 20 Gauss
+
+Response Time: 1.5 μs
+
+4.3 Power Supply Components
+Outdoor Unit:
+
+Voltage Regulator: LM7805 5V regulator
+
+Input Voltage: 9V-12V DC
+
+Power Jack: DC 2.1mm jack
+
+Capacitors: 100μF electrolytic, 0.1μF ceramic
+
+Weatherproof Enclosure: IP65 rated box
+
+Indoor Unit:
+
+USB Power Supply: 5V 2A wall adapter
+
+Micro-USB Cable: 1 meter
+
+4.4 Communication Components
+Serial Communication:
+
+Cable: 4-conductor shielded cable, 5 meters
+
+Connectors: 4-pin waterproof connectors
+
+Level Shifter: Bidirectional logic level converter 3.3V-5V
+
+Wi-Fi Antenna:
+
+Type: PCB antenna (built into ESP32)
+
+Range: Up to 100 meters in open space
+
+5. Structural & Mechanical Components
+5.1 Main Mounting Pole
+Material: Galvanized steel or aluminum
+
+Diameter: 40mm
+
+Height: 2 meters
+
+Base: Heavy-duty tripod base or concrete foundation
+
+Mounting Brackets: Stainless steel U-bolts
+
+5.2 Sensor Mounting Arms
+Material: Aluminum or stainless steel
+
+Length: 50cm (for anemometer and wind vane)
+
+Diameter: 15mm
+
+Mounting Clamps: Stainless steel hose clamps
+
+5.3 Enclosures & Protection
+Outdoor Electronics Box:
+
+Size: 200mm x 150mm x 80mm
+
+Material: ABS plastic with IP65 rating
+
+Cable Glands: PG7 waterproof cable glands (x6)
+
+Ventilation: Breathable waterproof vents
+
+Sensor Cable:
+
+Type: 4-core shielded outdoor cable
+
+Length: 5 meters
+
+Color: Black UV-resistant
+
+Connectors: Waterproof 4-pin connectors
+
+6. Electronic Components & Accessories
+6.1 PCB & Prototyping
+Prototype Boards: Perfboard 10x15cm (x2)
+
+Headers: Male and female headers 2.54mm pitch
+
+Jumper Wires: Male-to-male, male-to-female, female-to-female
+
+6.2 Passive Components
+Resistors:
+
+10kΩ 1/4W carbon film (x10)
+
+4.7kΩ 1/4W carbon film (x5)
+
+1kΩ 1/4W carbon film (x5)
+
+Capacitors:
+
+100μF 16V electrolytic (x5)
+
+10μF 16V electrolytic (x5)
+
+0.1μF ceramic disc (x10)
+
+0.01μF ceramic disc (x5)
+
+6.3 Power Management
+Battery Holder: CR2032 battery holder
+
+Fuses: 1A quick-blow fuses with holders
+
+Switches: Toggle switch SPST
+
+LED Indicators: 5mm red and green LEDs
+
+7. Tools & Equipment for Assembly
+7.1 Basic Tools
+Soldering Iron: 30-60W with stand
+
+Solder: Lead-free rosin core solder
+
+Multimeter: Digital multimeter with continuity test
+
+Screwdrivers: Set of precision screwdrivers
+
+Pliers: Needle-nose pliers, wire cutters, wire strippers
+
+7.2 Mechanical Tools
+Drill and Bits: Electric drill with assorted bits
+
+Hot Glue Gun: For weatherproofing and mounting
+
+Silicone Sealant: Waterproof silicone sealant
+
+Heat Shrink Tubing: Assorted sizes
+
+8. Cloud & Software Components
+8.1 Cloud Services
+Google Cloud Storage: For data logging and retrieval
+
+Visual Crossing Weather API: For historical data (optional)
+
+Custom Database: Time-series database for weather data
+
+8.2 Development Software
+Arduino IDE: For microcontroller programming
+
+Python: For machine learning models and data analysis
+
+Libraries:
+
+Arduino: DHT-sensor-library, Adafruit_BMP280, ESP32 WiFi
+
+Python: scikit-learn, pandas, numpy, matplotlib
