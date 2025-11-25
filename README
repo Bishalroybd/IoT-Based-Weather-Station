@@ -26,7 +26,7 @@ Web dashboard for remote monitoring
 [Indoor Unit - ESP32]
   └─ Wi-Fi → Google Cloud Storage 
 
-![Diagram](https://github.com/Bishalroybd/IoT-Based-Weather-Station/blob/ef15def98567d7d9e125aeaba0941609badd3d46/Pictures%20and%20Diagrams/Diagram.jpeg)
+![Alt Text](https://github.com/Bishalroybd/IoT-Based-Weather-Station/blob/d3316a7b89edd0ff9610dbfa0b12912a415d6eb0/Pictures%20and%20Diagrams/Diagram.jpeg)
 
 🧰 Hardware Summary
 Component	Purpose
