@@ -78,9 +78,7 @@ DHT sensor, Adafruit BMP280, RTClib
 
 ESP32
 
-Add board URL:
 
-https://dl.espressif.com/dl/package_esp32_index.json
 
 Cloud Upload (Python)
 from google.cloud import storage
