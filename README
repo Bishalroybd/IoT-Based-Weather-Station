@@ -24,8 +24,10 @@ Web dashboard for remote monitoring
   └─ Rain Gauge (Reed Switch)
           │ (5m cable)
 [Indoor Unit - ESP32]
-  └─ Wi-Fi → Google Cloud Storage
+  └─ Wi-Fi → Google Cloud Storage 
+
 ![Diagram](https://github.com/Bishalroybd/IoT-Based-Weather-Station/blob/ef15def98567d7d9e125aeaba0941609badd3d46/Pictures%20and%20Diagrams/Diagram.jpeg)
+
 🧰 Hardware Summary
 Component	Purpose
 Arduino Uno	Sensor controller
